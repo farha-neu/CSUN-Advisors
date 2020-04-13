@@ -55,7 +55,12 @@
     }
 
 .wrap {
-  font:12px Arial, san-serif;
+  font-size:12px;
+}
+
+.thumbnail{
+  width:200px !important;
+  height:150px !important;
 }
 
 /*Likert*/
@@ -198,7 +203,10 @@ form .buttons .submit:hover {background-color: #14892c;}
 }
 
 .login{
-  background-color: #343a40 !important;
+  /* background-color: #343a40 !important; */
+  background-image: url("../images/CSUN1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   box-shadow: 0px 0px 0px #343a40;
 }
 
